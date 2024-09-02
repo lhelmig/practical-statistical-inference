@@ -74,12 +74,6 @@ $$ \theta^{(n+1)} = \theta^{(n)} - \eta \nabla L(P_{\theta}) $$
 3. **Data Input**:
    - Data for salamander neural activity should be in the format specified in the scripts. Modify paths to the input files as necessary.
 
-## Figures and Tables
-
-- **Figure 1**: Convergence of the negative log-likelihood for various learning rates.
-- **Figure 2 & 3**: Comparison of inferred and true parameters in the equilibrium model.
-- **Table 1**: Inference success metrics based on different data splitting methods.
-
 ## Conclusion
 
 The developed algorithms demonstrate effective parameter inference for both equilibrium and non-equilibrium spin models. Applying these methods to biological data, such as neural activity in salamanders, shows that non-equilibrium models with asymmetric couplings are superior in capturing temporal correlations, though they require careful tuning of the learning rate and parameter initialization.
