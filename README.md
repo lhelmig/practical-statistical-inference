@@ -1,7 +1,5 @@
 # Statistical Inference of Spin Models using Boltzmann Machine Learning
 
-## Author: Lukas Helmig
-
 ### Date: September 2, 2024
 
 ## Overview
@@ -83,7 +81,3 @@ The developed algorithms demonstrate effective parameter inference for both equi
 - Explore alternative optimization methods to improve convergence rates.
 - Extend the models to incorporate higher-order interactions or additional biological constraints.
 - Apply the methods to other types of neural data to validate the generality of the approach.
-
-## Contact
-
-For any queries or contributions, please contact Lukas Helmig.
