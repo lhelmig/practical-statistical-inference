@@ -19,11 +19,11 @@ This project involves the development and implementation of statistical inferenc
 
 The Boltzmann machine learning framework is rooted in optimizing the Kullback-Leibler divergence between the data distribution and the model distribution. This is simplified to minimizing the negative log-likelihood:
 
-\\[ L(\\theta) = -\\frac{1}{M} \\sum_{k} \\log P_{\\theta}(s^{(k)}) \\]
+$$ L(\theta) = -\frac{1}{M} \sum_{k} \log P_{\theta}(s^{(k)}) $$
 
-where \\( P_{\\theta}(s^{(k)}) \\) is the probability of the data given model parameters \\( \\theta \\). Gradient descent is used to iteratively update the parameters:
+where \( P_{\theta}(s^{(k)}) \) is the probability of the data given model parameters \( \theta \). Gradient descent is used to iteratively update the parameters:
 
-\\[ \\theta^{(n+1)} = \\theta^{(n)} - \\eta \\nabla L(P_{\\theta}) \\]
+$$ \theta^{(n+1)} = \theta^{(n)} - \eta \nabla L(P_{\theta}) $$
 
 ## Key Components
 
@@ -41,7 +41,7 @@ where \\( P_{\\theta}(s^{(k)}) \\) is the probability of the data given model pa
 ## Methods
 
 1. **Gradient Descent Optimization**:
-   - Derivatives of the log-likelihood with respect to model parameters are computed and used to iteratively update the fields \\(h_i\\) and couplings \\(J_{ij}\\).
+   - Derivatives of the log-likelihood with respect to model parameters are computed and used to iteratively update the fields \(h_i\) and couplings \(J_{ij}\).
 2. **Monte Carlo Sampling**:
    - Metropolis algorithm and Glauber dynamics are used to generate samples from the equilibrium and non-equilibrium distributions, respectively.
 3. **Parameter Inference**:
